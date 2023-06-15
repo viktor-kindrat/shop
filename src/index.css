@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: #fff;
+    color: #222;
+    font-weight: 300;
+}
+.wrap{  
+    width: 100%;
+    padding: 50px 100px;
+}
+.wrap .logo{
+    font-weight: 600;
+    font-size: 24px;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul li{
+    margin-left: 20px;
+    list-style: none;
+    cursor: pointer;
+}
+.wrap .presentation{
+    background-image: url('./img/home.jpg');
+    height: 500px;
+    width: 100%;
+    background-position: top center;
+    background-blend-mode: multiply;
+    background-color: #bcbcbc;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    align-items: flex-start;
+    border-radius: 5px;
+}
+.wrap .presentation h1{
+    margin-bottom: 10px;
+    width: 300px;
+    font-size: calc(32px + 0.6vw);
+}
+.wrap .presentation button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 100;
+}
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
