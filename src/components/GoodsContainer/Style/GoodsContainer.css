@@ -1,0 +1,12 @@
+.GoodsContainer {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    padding: 0 150px;
+}
+
+@media screen and (max-width: 800px) {
+    .GoodsContainer {
+        padding: 0 25px;
+    }
+}

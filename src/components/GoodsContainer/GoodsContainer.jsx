@@ -1,6 +1,8 @@
+import "./Style/GoodsContainer.css"
+
 import React from 'react'
-import Goods from './Goods/Goods';
-import goods from "../goods.json"
+import Goods from '../Goods/Goods';
+import goods from "../../goods.json"
 
 export default function GoodsContainer() {
   return (
