@@ -4,7 +4,7 @@ export default function Footer() {
 
   return (
    <footer>
-    Всі права захищено  &copy;
+    Всі права захищено {new Date().getFullYear()}  &copy;
    </footer>
   )
 }
