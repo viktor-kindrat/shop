@@ -10,9 +10,13 @@ export default function Header() {
         <nav>
        
                 <ul>
+                    <li>Головна</li>
+                    <li>Товари</li>
+                    <li>Акції</li>
                     <li>Про нас</li>
                     <li>Контакти</li>
                     <li>Кабінет</li>
+                    <li>Правила</li>
                 </ul>
         </nav>
         
