@@ -1,0 +1,59 @@
+.goodsItem {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding: 25px;
+    box-shadow: 0 4px 5px #00000020;
+    margin: 25px 0;
+}
+
+.goodsItem-image {
+    height: 250px;
+    object-fit: cover;
+    width: min(450px, 100%);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.goodsItem-headline-group {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.goods-item-sale-badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(189, 14, 14);
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 2px 5px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.goodsItem-buy {
+    margin-top: 20px;
+    border: none;
+    background: rgb(45, 45, 205);
+    color: #ffffff;
+    outline: none;
+    padding: 5px 25px;
+    border-radius: 2px;
+    cursor: pointer;
+    text-align: center;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
